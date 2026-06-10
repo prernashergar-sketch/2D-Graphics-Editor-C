@@ -1,0 +1,54 @@
+Use only C language (C99 standard).
+Do not use C++.
+Do not use external graphics libraries.
+Use standard C libraries only.
+
+Create a complete menu-driven 2D Graphics Editor in C using a 2D character array as the drawing canvas.
+
+Requirements:
+
+1. The canvas must be a 50x50 character array.
+2. Initially fill the entire canvas with '_' (underscore).
+3. Use '*' (asterisk) to draw graphical objects.
+
+Implement the following functions:
+
+* initializeCanvas()
+* displayCanvas()
+* drawRectangle()
+* drawLine()
+* drawTriangle()
+* drawCircle()
+* deleteObject()
+* modifyObject()
+
+Features:
+
+* Add graphical objects to the canvas.
+* Delete graphical objects from the canvas.
+* Modify existing graphical objects by deleting and redrawing them.
+* Display the current canvas after every operation.
+
+Menu:
+
+1. Draw Rectangle
+2. Draw Line
+3. Draw Triangle
+4. Draw Circle
+5. Delete Object
+6. Modify Object
+7. Display Canvas
+8. Exit
+
+Programming requirements:
+
+* Use modular functions.
+* Use structures to store object information.
+* Maintain a list of objects added to the canvas.
+* Include proper input validation.
+* Use comments explaining each function.
+* Follow good coding practices suitable for an engineering graphics assignment.
+* Do not use external graphics libraries.
+* Use only standard C libraries.
+* Generate complete compilable code.
+* Also generate a README.md explaining project features and execution steps.
